@@ -1,4 +1,4 @@
 FROM centos:centos7
-MAINTAINER rnstech
+LABEL maintainer=Rnstech
 RUN yum update -y
 RUN yum install net-tools wget -y
